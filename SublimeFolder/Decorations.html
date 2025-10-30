@@ -1,0 +1,126 @@
+<html>
+
+<head>
+
+	<title>Decorations</title>
+
+	<style>
+		body {
+			background-color: #fffbea;
+			font-family: 'Trebuchet MS', sans-serif;
+			margin: 0;
+			padding: 0 10%;
+		}
+
+		h1 {
+			color: #e11d48;
+			font-family: 'Brush Script MT', cursive;
+			text-align: center;
+			margin-top: 40px;
+			text-shadow: 2px 2px #facc15;
+		}
+
+		p {
+			background-color: #3b82f6;
+			color: #fff;
+			padding: 14px;
+			border: 3px solid #facc15;
+			border-radius: 10px;
+			line-height: 1.6;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+		}
+
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 25px;
+			margin: 30px 0;
+		}
+
+		.gallery img {
+			width: 100%;
+			height: 250px;
+			object-fit: cover;
+			border: 2px solid #e11d48;
+			border-radius: 6px;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+
+		.gallery img:hover {
+			transform: scale(1.07);
+			box-shadow: 0 0 15px #facc15;
+		}
+
+		a {
+			color: #1d4ed8;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #e11d48;
+			text-decoration: underline;
+		}
+
+		.button-row {
+			display: flex;
+			gap: 20px;
+			margin: 20px 0;
+			flex-wrap: wrap;
+		}
+
+		.go-back {
+			background-color: #f4a261;
+			color: #fff;
+			padding: 12px 20px;
+			border-radius: 8px;
+			border: 2px solid #e76f51;
+			font-weight: bold;
+			text-decoration: none;
+			text-align: center;
+			transition: background-color 0.3s ease;
+		}
+
+		.go-back:hover {
+			background-color: #e76f51;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Decorations</h1>
+
+	<p>Here are some creative examples of terrariums. You can decorate by choosing a unique vessel or by adding fun elements inside!</p>
+
+	<div class="gallery">
+		<img src="Images/House.jpg" alt="House-shaped terrarium">
+		<img src="Images/Drop.jpg" alt="Drop terrarium">
+		<img src="Images/Stack.jpg" alt="Stacked terrarium">
+		<img src="Images/Case.jpg" alt="Glass case terrarium">
+	</div>
+
+	<p>Check out this link for 31 awesome ideas to make your terrarium stunning and unique:  
+		<a href="https://www.thespruce.com/gallery-of-terrarium-pictures-4121856" target="_blank">The Spruce Terrarium Gallery</a>
+	</p>
+
+	<p>Here is how to make your terrarium hospitable:  
+		<a href="animal.html">Animal Terrarium Guide</a>
+	</p>
+
+
+	<div class="button-row">
+		<a href="tropical.html" class="go-back">Go back to Tropical Terrarium</a>
+		<a href="desert.html" class="go-back">Go back to Desert Terrarium</a>
+		<a href="pg1.html" class="go-back">Return to main page</a>
+	</div>
+
+	<p style="font-size: 0.8em; color: #fffbea; text-align: center; margin-top: 40px;">
+    Image(s) courtesy of <a href="https://www.pexels.com" target="_blank" style="color:#fffbea;">Pexels</a>
+</p>
+
+
+</body>
+
+</html>
